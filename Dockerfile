@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     git \
     curl \
     ca-certificates \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Bun (required for build)

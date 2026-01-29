@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   moltbot-gateway:
     image: ghcr.io/phioranex/moltbot:latest
