@@ -177,7 +177,12 @@ if (-not $SkipOnboard) {
     Write-Host ""
     
     # Run onboarding
-    & $ComposeCmd.Split() run -T --rm openclaw-cli onboard
+    $composeParts = $ComposeCmd -split " ", 2
+    if ($composeParts.Count -eq 2) {
+        & $composeParts[0] $composeParts[1] run -T --rm openclaw-cli onboard
+    } else {
+        & $composeParts[0] run -T --rm openclaw-cli onboard
+    }
     if ($LASTEXITCODE -ne 0) {
         Write-Warning "Onboarding wizard was skipped or failed"
         Write-Host "You can run it later with: cd $InstallDir && $ComposeCmd run --rm openclaw-cli onboard" -ForegroundColor Yellow
@@ -189,7 +194,12 @@ if (-not $SkipOnboard) {
 # Start gateway
 if (-not $NoStart) {
     Write-Step "Starting OpenClaw gateway..."
-    & $ComposeCmd.Split() up -d openclaw-gateway
+    $composeParts = $ComposeCmd -split " ", 2
+    if ($composeParts.Count -eq 2) {
+        & $composeParts[0] $composeParts[1] up -d openclaw-gateway
+    } else {
+        & $composeParts[0] up -d openclaw-gateway
+    }
     
     # Wait for gateway to be ready
     Write-Host "Waiting for gateway to start" -NoNewline
